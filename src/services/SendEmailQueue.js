@@ -9,6 +9,6 @@ export class SendEmailQueue {
 
   async send(data){
 
-    await this.sendEmailQueue.add({name: data.name, email:data.email});
+    await this.sendEmailQueue.add('RegistrationMail',{name: data.name, email:data.email}, {priority:3, delay:5000});
   }
 }

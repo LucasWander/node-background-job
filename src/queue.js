@@ -13,7 +13,7 @@ class ConfirmationEmailQueue {
   }
 
   addProcessMethod() {
-    this.sendEmailQueue.process( async (job, done) => {
+    this.sendEmailQueue.process('RegistrationMail' ,async (job, done) => {
 
       try {
         await this.sendEmail.send({name: job.data.name, email:job.data.email});
