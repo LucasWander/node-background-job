@@ -1,13 +1,19 @@
 # Node background job
 
-> Simple background jobs in Node.js with redis and bull
 
+
+[![issues](https://img.shields.io/github/issues/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/issues)
+[![forks](https://img.shields.io/github/forks/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/issues)
+[![stars](https://img.shields.io/github/stars/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/issues)
+[![license](https://img.shields.io/github/license/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job)
+> Simple background jobs in Node.js with redis and bull
 
 # Usage
 
-### **Run redis**
-
 You need to have **docker** installed
+
+
+### **Run redis**
 
 ```
 docker run -d -p 6379:6379 redis:6.0.5
