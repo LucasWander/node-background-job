@@ -3,9 +3,9 @@
 
 
 [![issues](https://img.shields.io/github/issues/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/issues)
-[![forks](https://img.shields.io/github/forks/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/issues)
-[![stars](https://img.shields.io/github/stars/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/issues)
-[![license](https://img.shields.io/github/license/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job)
+[![forks](https://img.shields.io/github/forks/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/)
+[![stars](https://img.shields.io/github/stars/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/)
+[![license](https://img.shields.io/github/license/LucasWander/node-background-job)](https://github.com/LucasWander/node-background-job/blob/master/LICENSE)
 > Simple background jobs in Node.js with redis and bull
 
 # Usage
