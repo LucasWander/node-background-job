@@ -14,11 +14,12 @@ export class SendEmailNodemailer {
 
   async send(data){
 
+
     const info = await this.transporter.sendMail({
       from: 'DIO <contato@dio.com.br>', // sender address
       to: `${data.name} <${data.email}>`, // list of receivers
       subject: "Cadastro de usuário", // Subject line
-      html: `<b>Olá, ${data.name} bem-vindo a DIO</b>`, // html body
+      html: `<b style="color:red">Olá, ${data.name} bem-vindo a DIO</b>`, // html body
     });
 
   }

@@ -1,5 +1,5 @@
 import {SaveUserController} from '../controllers/saveUserController';
-import {SendEmailNodemailer} from '../services/SendEmailNodemailer';
+import {SendEmailQueue} from '../services/SendEmailQueue';
 
 class SaveUserUseCase {
   constructor(){}
@@ -13,10 +13,9 @@ const data = {
 }
 
 
-
-const sendEMail = new SendEmailNodemailer(data);
+const sendEmailQueue = new SendEmailQueue()
 const saveUserUseCase = new SaveUserUseCase();
-const saveUserController = new SaveUserController(saveUserUseCase, sendEMail);
+const saveUserController = new SaveUserController(saveUserUseCase, sendEmailQueue);
 
 
 export default saveUserController;
