@@ -1,6 +1,6 @@
-# Node background
+# Node background job
 
-> Simple background tasks in Node.js with redis and bull
+> Simple background jobs in Node.js with redis and bull
 
 
 # Usage
